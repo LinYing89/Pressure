@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="?attr/colorPrimary"
+              style="?android:attr/buttonBarStyle"
+              android:orientation="horizontal">
+    <Button
+        android:id="@+id/btn_max_min"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="?android:attr/buttonBarButtonStyle"
+        android:textColor="@android:color/white"
+        android:layout_weight="1"
+        android:text="@string/search_max_min" />
+    <Button
+        android:id="@+id/btn_set_max"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="?android:attr/buttonBarButtonStyle"
+        android:textColor="@android:color/white"
+        android:layout_weight="1"
+        android:text="@string/set_max" />
+</LinearLayout>

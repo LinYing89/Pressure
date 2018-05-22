@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 添加灯设备时给出可选择的默认名称 -->
+    <string-array name="default_lamp">
+        <item>吊灯</item>
+        <item>壁灯</item>
+        <item>台灯</item>
+        <item>落地灯</item>
+        <item>天花灯</item>
+        <item>下照灯</item>
+        <item>筒灯</item>
+    </string-array>
+    <!-- 添加窗帘设备时给出可选择的默认名称 -->
+    <string-array name="default_curtain">
+        <item>窗帘</item>
+        <item>南窗帘</item>
+        <item>北窗帘</item>
+        <item>东窗帘</item>
+        <item>西窗帘</item>
+    </string-array>
+    <string-array name="array_event_style">
+        <item>ADD</item>
+        <item>OR</item>
+    </string-array>
+    <string-array name="array_event_symbol">
+        <item>大于</item>
+        <item>等于</item>
+        <item>小于</item>
+    </string-array>
+    <string-array name="array_event_state">
+        <item>OFF</item>
+        <item>ON</item>
+    </string-array>
+
+
+</resources>

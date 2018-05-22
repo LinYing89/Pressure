@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".network.NetActivity">
+    <item android:id="@+id/action_net_add_input"
+          android:title="@string/net_add_input"
+          android:orderInCategory="100"/>
+    <item android:id="@+id/action_net_add_auto"
+          android:title="@string/net_add_auto"
+          android:orderInCategory="100"/>
+
+</menu>

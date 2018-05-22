@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<selector xmlns:android="http://schemas.android.com/apk/res/android"> 
+<!--选中--> 
+<item 
+	android:state_checked="true"
+	android:drawable="@mipmap/checkbox_on" />
+<!--没有选中-->		
+<item 
+	android:state_checked="false"
+	android:drawable="@mipmap/checkbox_off" />
+</selector>
+<!-- 情景模式界面中，设备开关自定义复选框 -->
